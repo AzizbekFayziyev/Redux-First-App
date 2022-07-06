@@ -1,0 +1,29 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient( to right, yellow,red) no-repeat;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.counter{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background: rgba(0, 0, 0, 0.147);
+   padding: 25px;
+   border-radius: 20px;
+}
+
+h1{
+  margin: 20px auto !important;
+}
+
